@@ -1,5 +1,5 @@
 streamlit==1.10.0
 plotly==5.6.0
 pandas
-openpyxl==3.0.9
+openpyxl==3.0.10
 protobuf==3.20.*
