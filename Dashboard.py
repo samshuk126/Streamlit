@@ -13,7 +13,7 @@ col1, col2 = st.columns([1, 8])  # Adjust the ratio as needed for your logo size
 
 # Display the logo in the first column
 with col1:
-    st.image("/Users/samridhishukla/Downloads/Streamlit/Catalytics Datum_Logo png.png", width=100)  # Adjust the width as needed
+    st.image("Catalytics Datum_Logo png.png", width=100)  # Adjust the width as needed
 
 # Display the title in the second column
 with col2:
@@ -31,7 +31,7 @@ if fl is not None:
         df = pd.read_excel(fl)
 else:
     # Assuming the default file to read is an Excel file named 'Superstore.xlsx'
-    df = pd.read_excel("/Users/samridhishukla/Downloads/Streamlit/Superstore.xlsx")
+    df = pd.read_excel("Superstore.xlsx")
 
 # Rest of your Streamlit code...
 
